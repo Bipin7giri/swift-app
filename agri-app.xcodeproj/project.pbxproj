@@ -14,6 +14,11 @@
 		667AC13D2BAC942B00C3A5E7 /* agri_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667AC13C2BAC942B00C3A5E7 /* agri_appTests.swift */; };
 		667AC1472BAC942B00C3A5E7 /* agri_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667AC1462BAC942B00C3A5E7 /* agri_appUITests.swift */; };
 		667AC1492BAC942B00C3A5E7 /* agri_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667AC1482BAC942B00C3A5E7 /* agri_appUITestsLaunchTests.swift */; };
+		667AC1572BAC956C00C3A5E7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667AC1562BAC956B00C3A5E7 /* SplashView.swift */; };
+		667AC1592BAC95A600C3A5E7 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667AC1582BAC95A600C3A5E7 /* MainContentView.swift */; };
+		667AC15C2BAC998400C3A5E7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667AC15B2BAC998400C3A5E7 /* LoginView.swift */; };
+		66935B602BACA76300991070 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66935B5F2BACA76300991070 /* RegisterView.swift */; };
+		66935B632BACAFC100991070 /* ProductModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66935B622BACAFC100991070 /* ProductModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		667AC1422BAC942B00C3A5E7 /* agri-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "agri-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		667AC1462BAC942B00C3A5E7 /* agri_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agri_appUITests.swift; sourceTree = "<group>"; };
 		667AC1482BAC942B00C3A5E7 /* agri_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agri_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		667AC1562BAC956B00C3A5E7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		667AC1582BAC95A600C3A5E7 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		667AC15B2BAC998400C3A5E7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		66935B5F2BACA76300991070 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		66935B622BACAFC100991070 /* ProductModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,8 @@
 		667AC12A2BAC942800C3A5E7 /* agri-app */ = {
 			isa = PBXGroup;
 			children = (
+				66935B612BACAFA300991070 /* Modal */,
+				667AC1552BAC954E00C3A5E7 /* View */,
 				667AC12B2BAC942800C3A5E7 /* agri_appApp.swift */,
 				667AC12D2BAC942800C3A5E7 /* ContentView.swift */,
 				667AC12F2BAC942B00C3A5E7 /* Assets.xcassets */,
@@ -125,6 +137,33 @@
 				667AC1482BAC942B00C3A5E7 /* agri_appUITestsLaunchTests.swift */,
 			);
 			path = "agri-appUITests";
+			sourceTree = "<group>";
+		};
+		667AC1552BAC954E00C3A5E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				667AC15A2BAC997200C3A5E7 /* Auth */,
+				667AC1562BAC956B00C3A5E7 /* SplashView.swift */,
+				667AC1582BAC95A600C3A5E7 /* MainContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		667AC15A2BAC997200C3A5E7 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				667AC15B2BAC998400C3A5E7 /* LoginView.swift */,
+				66935B5F2BACA76300991070 /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		66935B612BACAFA300991070 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				66935B622BACAFC100991070 /* ProductModal.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66935B632BACAFC100991070 /* ProductModal.swift in Sources */,
 				667AC12E2BAC942800C3A5E7 /* ContentView.swift in Sources */,
 				667AC12C2BAC942800C3A5E7 /* agri_appApp.swift in Sources */,
+				667AC1572BAC956C00C3A5E7 /* SplashView.swift in Sources */,
+				66935B602BACA76300991070 /* RegisterView.swift in Sources */,
+				667AC15C2BAC998400C3A5E7 /* LoginView.swift in Sources */,
+				667AC1592BAC95A600C3A5E7 /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
